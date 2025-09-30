@@ -1,0 +1,14 @@
+1.What is CI and CD?
+CI (Continuous Integration) means always combining code changes into one main project and running tests to check if everything still works.
+CD (Continuous Deployment/Delivery) is about automatically sending those tested changes to staging or production so the app is always up-to-date.
+
+2.Why is automation important?
+Automation is important because it saves time and avoids human mistakes. It makes things faster, keeps everything consistent, and allows developers to spend more time coding features instead of doing the same steps again and again.
+
+3.How can CI/CD improve teamwork and quality?
+-Developers can quickly see errors through automated tests.
+-It’s easier to merge code since updates happen often.
+-The team works together better because the main branch is always stable.
+
+4.Challenges faced?
+Some challenges I had were dealing with YAML spacing and syntax issues, figuring out the steps in GitHub Actions, fixing small typos in file names, making sure tests were detected properly, and trying multiple times to debug until the pipeline finally passed.
